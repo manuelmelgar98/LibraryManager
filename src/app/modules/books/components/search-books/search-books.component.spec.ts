@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SarchBooksComponent } from './sarch-books.component';
+import { SearchBooksComponent } from './search-books.component';
 
 describe('SarchBooksComponent', () => {
-  let component: SarchBooksComponent;
-  let fixture: ComponentFixture<SarchBooksComponent>;
+  let component: SearchBooksComponent;
+  let fixture: ComponentFixture<SearchBooksComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [SarchBooksComponent]
+      imports: [SearchBooksComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(SarchBooksComponent);
+    fixture = TestBed.createComponent(SearchBooksComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
