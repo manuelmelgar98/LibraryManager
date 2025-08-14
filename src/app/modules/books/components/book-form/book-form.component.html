@@ -1,1 +1,20 @@
-<p>book-form works!</p>
+<form [formGroup]="bookForm" (ngSubmit)="onSubmit()">
+    <fieldset>
+        <legend></legend>
+        <div>
+            <label for="title">Título:</label>
+            <input type="text" id="title" formControlName="title">
+        </div>
+    
+        <div>
+            <label for="author">Autor:</label>
+            <input type="text" id="author" formControlName="author">
+        </div>
+    
+        <div>
+            <label for="isbn">ISBN:</label>
+            <input type="text" id="isbn" formControlName="isbn">
+        </div>
+    </fieldset>
+    <button type="submit" [disabled]="!bookForm.valid">Guardar</button>
+</form>

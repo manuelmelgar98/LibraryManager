@@ -1,6 +1,6 @@
 <div class="books-container">
   <h1>Gestión de Libros</h1>
   <app-search-books></app-search-books>
-  <app-book-form></app-book-form>
+  <app-book-form (bookAdded)="handleBookAdded($event)"></app-book-form>
   <app-book-table [books]="books"></app-book-table>
 </div>

@@ -29,5 +29,17 @@ export class BooksComponent implements OnInit {
       this.books = data;
     })
   }
+
+  handleBookAdded(book: Book): void {
+    this.bookService.addBook(book).subscribe({
+      next: () => {
+        console.log('Libro añadido exitosamente');
+        this.loadBooks();        
+      },
+      error: (err) => {
+        console.error('Error al añadir el libro: ',err);        
+      }
+    })
+  }
   
 }
