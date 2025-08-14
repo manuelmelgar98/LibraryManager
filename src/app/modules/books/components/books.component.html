@@ -1,6 +1,19 @@
 <div class="books-container">
   <h1>Gestión de Libros</h1>
   <app-search-books></app-search-books>
-  <app-book-form (bookAdded)="handleBookAdded($event)"></app-book-form>
-  <app-book-table [books]="books"></app-book-table>
+  @if (isVisible) {
+    <app-book-form
+      [bookToEdit]="selectedBook"
+      [isEditMode]="isEditMode"
+      (cancel)="onCancelEdit()"
+      (submit)="handleBookSubmit($event)"
+    ></app-book-form>
+  }
+  <app-book-table
+    [books]="books"    
+  ></app-book-table>
+
+  <button (click)="onEditBook(books[0])">Editar Libro</button>
+  <button (click)="onEditBook()">Nuevo Libro</button>
+  
 </div>

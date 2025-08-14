@@ -16,7 +16,10 @@ import { SearchBooksComponent } from './search-books/search-books.component';
   styleUrl: './books.component.css'
 })
 export class BooksComponent implements OnInit {
-  public books: Book[] = [];
+  books: Book[] = [];
+  selectedBook: Book | null = null;
+  isEditMode: boolean = false;
+  isVisible: boolean = false;
 
   constructor(private bookService: BookService) {}
 
@@ -25,21 +28,48 @@ export class BooksComponent implements OnInit {
   }
 
   loadBooks(): void {
-    this.bookService.getBooks().subscribe((data) => {
-      this.books = data;
-    })
+    this.bookService.getBooks().subscribe((data) => this.books = data);
   }
 
-  handleBookAdded(book: Book): void {
-    this.bookService.addBook(book).subscribe({
-      next: () => {
-        console.log('Libro añadido exitosamente');
-        this.loadBooks();        
-      },
-      error: (err) => {
-        console.error('Error al añadir el libro: ',err);        
-      }
-    })
+  onEditBook(book?: Book): void {
+    this.isVisible = true;
+    this.selectedBook = book ? {...book} : {
+      title: '',
+      isbn: '',
+      author: ''
+    }
+
+    if (book) this.isEditMode = true;
+    else this.isEditMode = false;
+
+  }
+
+  onCancelEdit(): void {
+    this.selectedBook = null;
+    this.isEditMode = false;
+    this.isVisible = false;
+  }
+
+  handleBookSubmit(book: Book): void {    
+    if(this.isEditMode && this.selectedBook?.id) {
+      this.bookService.updateBook(this.selectedBook.id, book).subscribe({
+        next: () => {
+          this.loadBooks();
+          this.onCancelEdit();
+        },
+        error: (err) => console.error('Error al actualizar', err),
+      });
+    } else {
+      this.bookService.addBook(book).subscribe({
+        next: () => {
+          this.loadBooks();
+          this.onCancelEdit();    
+        },
+        error: (err) => {
+          console.error('Error al crear libro: ',err);        
+        }
+      })
+    }
   }
   
 }

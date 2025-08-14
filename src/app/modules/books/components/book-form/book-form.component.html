@@ -1,6 +1,6 @@
 <form [formGroup]="bookForm" (ngSubmit)="onSubmit()">
     <fieldset>
-        <legend></legend>
+        <legend>{{ isEditMode ? 'Editar Libro Existente' : 'Registrar Nuevo Libro' }}</legend>
         <div>
             <label for="title">Título:</label>
             <input type="text" id="title" formControlName="title">
@@ -16,5 +16,8 @@
             <input type="text" id="isbn" formControlName="isbn">
         </div>
     </fieldset>
-    <button type="submit" [disabled]="!bookForm.valid">Guardar</button>
+    <button type="submit" [disabled]="!bookForm.valid">
+        {{ isEditMode ? 'Guardar Cambios' : 'Crear Libro' }}
+    </button>
+    <button type="button" (click)="onCancel()">Cancelar</button>
 </form>
