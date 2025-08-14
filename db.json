@@ -4,13 +4,41 @@
       "id": 1,
       "title": "Clean Code",
       "author": "Robert C. Martin",
-      "isbn": "978-0132350884"
+      "isbn": "978-0132350884",
+      "year": 2008,
+      "genre": "Software Development"
     },
     {
       "id": 2,
       "title": "The Pragmatic Programmer",
       "author": "David Thomas, Andrew Hunt",
-      "isbn": "978-0135957059"
+      "isbn": "978-0135957059",
+      "year": 1999,
+      "genre": "Software Development"
+    },
+    {
+      "id": 3,
+      "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
+      "author": "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
+      "isbn": "978-0201633610",
+      "year": 1994,
+      "genre": "Software Design"
+    },
+    {
+      "id": 4,
+      "title": "Structure and Interpretation of Computer Programs (SICP)",
+      "author": "Harold Abelson, Gerald Jay Sussman",
+      "isbn": "978-0262510875",
+      "year": 1985,
+      "genre": "Computer Science"
+    },
+    {
+      "id": 5,
+      "title": "Introduction to Algorithms",
+      "author": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
+      "isbn": "978-0262033848",
+      "year": 1990,
+      "genre": "Algorithms"
     }
   ]
 }
