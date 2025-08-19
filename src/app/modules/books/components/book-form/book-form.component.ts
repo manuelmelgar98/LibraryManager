@@ -14,22 +14,30 @@ export class BookFormComponent {
   @Input() isEditMode: boolean = false;
   @Input() set bookToEdit(book: Book | null) {
     if (book) this.bookForm.patchValue(book);
+    this.initialFormValue = this.bookForm.value;
   }
   @Output() cancel = new EventEmitter<void>();
-  @Output() submit = new EventEmitter<Book>();
+  @Output() save = new EventEmitter<Book>();
+  private initialFormValue: any;
 
   public bookForm = new FormGroup({
     title: new FormControl<string>('', [Validators.required]),
     author: new FormControl<string>('', [Validators.required]),
+    genre: new FormControl<string>('', [Validators.required]),
+    year: new FormControl<number | null>(null, [Validators.required]),
     isbn: new FormControl<string>('', [Validators.required])
   });
   
   onSubmit(): void {
-    this.submit.emit(this.bookForm.value as Book);
+    this.save.emit(this.bookForm.value as Book);
   }
 
   onCancel(): void {
     this.cancel.emit();
+  }
+
+  public get hasChanges(): boolean {
+    return JSON.stringify(this.initialFormValue) !== JSON.stringify(this.bookForm.value);
   }
 
 }

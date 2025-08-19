@@ -6,14 +6,15 @@
       [bookToEdit]="selectedBook"
       [isEditMode]="isEditMode"
       (cancel)="onCancelEdit()"
-      (submit)="handleBookSubmit($event)"
+      (save)="handleBookSubmit($event)"
     ></app-book-form>
   }
   <app-book-table
-    [books]="books"    
+    [books]="books"
+    (editBook)="onEditBook($event)"
+    (deleteBook)="onDelete($event)"
   ></app-book-table>
 
-  <button (click)="onEditBook(books[0])">Editar Libro</button>
   <button (click)="onEditBook()">Nuevo Libro</button>
   
 </div>

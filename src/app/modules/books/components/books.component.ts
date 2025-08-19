@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { BookService } from '../services/book.service';
 import { Book } from '../models/book.model';
+import { showAlert, showConfirm } from '../../../core/utils/messages';
 
 import { BookFormComponent } from './book-form/book-form.component';
 import { BookTableComponent } from './book-table/book-table.component';
@@ -33,10 +34,14 @@ export class BooksComponent implements OnInit {
 
   onEditBook(book?: Book): void {
     this.isVisible = true;
+    
+    
     this.selectedBook = book ? {...book} : {
       title: '',
-      isbn: '',
-      author: ''
+      author: '',
+      genre: '',
+      year: null,
+      isbn: ''
     }
 
     if (book) this.isEditMode = true;
@@ -50,26 +55,42 @@ export class BooksComponent implements OnInit {
     this.isVisible = false;
   }
 
-  handleBookSubmit(book: Book): void {    
+  handleBookSubmit(book: Book): void { 
     if(this.isEditMode && this.selectedBook?.id) {
+      console.log('ID enviado al servicio:', this.selectedBook.id);
+        console.log('Tipo de ID:', typeof this.selectedBook.id);
+        console.log('Payload enviado al servicio:', book);
       this.bookService.updateBook(this.selectedBook.id, book).subscribe({
         next: () => {
           this.loadBooks();
           this.onCancelEdit();
+          showAlert('¡Libro actualizado exitosamente!', 'Libro actualizado.');
         },
-        error: (err) => console.error('Error al actualizar', err),
+        error: (err) => showAlert('Hubo un error al actualizar el libro', 'Error')
       });
     } else {
       this.bookService.addBook(book).subscribe({
         next: () => {
           this.loadBooks();
-          this.onCancelEdit();    
+          this.onCancelEdit();
+          showAlert('¡Libro creado exitosamente!', 'Libro creado.');
         },
-        error: (err) => {
-          console.error('Error al crear libro: ',err);        
-        }
+        error: (err) => showAlert('Hubo un error al crear el libro', 'Error')
       })
     }
+  }
+
+  onDelete(id: string): void {
+    showConfirm('¿Estás seguro de eliminar este libro?', () => {
+      this.bookService.deleteBook(id).subscribe({
+        next: () => {
+          this.loadBooks();
+          this.onCancelEdit();
+          showAlert('¡Libro eliminado exitosamente!', 'Libro eliminado.');
+        },
+        error: (err) => showAlert('Hubo un error al eliminar el libro', 'Error')
+      })
+    }, 'Eliminar libro.');
   }
   
 }
