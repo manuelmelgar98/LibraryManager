@@ -4,13 +4,13 @@ import { ReactiveFormsModule, FormGroup, FormControl, Validators } from '@angula
 import { Book } from '../../models/book.model';
 
 @Component({
-  selector: 'app-book-form',
+  selector: 'app-form-book',
   standalone: true,
   imports: [CommonModule, ReactiveFormsModule],
-  templateUrl: './book-form.component.html',
-  styleUrl: './book-form.component.css'
+  templateUrl: './form-book.component.html',
+  styleUrl: './form-book.component.css'
 })
-export class BookFormComponent {
+export class FormBookComponent {
   @Input() isEditMode: boolean = false;
   @Input() set bookToEdit(book: Book | null) {
     if (book) this.bookForm.patchValue(book);

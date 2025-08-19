@@ -1,19 +1,19 @@
 <div class="books-container">
   <h1>Gestión de Libros</h1>
-  <app-search-books></app-search-books>
+  <app-search-book></app-search-book>
   @if (isVisible) {
-    <app-book-form
+    <app-form-book
       [bookToEdit]="selectedBook"
       [isEditMode]="isEditMode"
       (cancel)="onCancelEdit()"
       (save)="handleBookSubmit($event)"
-    ></app-book-form>
+    ></app-form-book>
   }
-  <app-book-table
+  <app-table-book
     [books]="books"
     (editBook)="onEditBook($event)"
     (deleteBook)="onDelete($event)"
-  ></app-book-table>
+  ></app-table-book>
 
   <button (click)="onEditBook()">Nuevo Libro</button>
   

@@ -3,13 +3,13 @@ import { NgFor, NgIf } from '@angular/common';
 import { Book } from '../../models/book.model';
 
 @Component({
-  selector: 'app-book-table',
+  selector: 'app-table-book',
   standalone: true,
   imports: [NgFor, NgIf],
-  templateUrl: './book-table.component.html',
-  styleUrl: './book-table.component.css'
+  templateUrl: './table-book.component.html',
+  styleUrl: './table-book.component.css'
 })
-export class BookTableComponent {
+export class TableBookComponent {
   @Input() books: Book[] = [];
   @Output() editBook = new EventEmitter<Book>();
   @Output() deleteBook = new EventEmitter<string>();

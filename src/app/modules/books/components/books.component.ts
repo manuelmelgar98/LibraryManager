@@ -4,15 +4,15 @@ import { BookService } from '../services/book.service';
 import { Book } from '../models/book.model';
 import { showAlert, showConfirm } from '../../../core/utils/messages';
 
-import { BookFormComponent } from './form-book/book-form.component';
-import { BookTableComponent } from './table-book/book-table.component';
-import { SearchBooksComponent } from './search-book/search-books.component';
+import { FormBookComponent } from './form-book/form-book.component';
+import { TableBookComponent } from './table-book/table-book.component';
+import { SearchBookComponent } from './search-book/search-book.component';
 
 
 @Component({
   selector: 'app-books',
   standalone: true,
-  imports: [CommonModule, BookFormComponent, BookTableComponent, SearchBooksComponent],
+  imports: [CommonModule, FormBookComponent, TableBookComponent, SearchBookComponent],
   templateUrl: './books.component.html',
   styleUrl: './books.component.css'
 })
