@@ -6,7 +6,7 @@
   margin-top: 20px;
 }
 
-.paginator-button {
+.paginator-button, .paginator-select {
   padding: 8px 12px;
   border: 1px solid #ccc;
   background-color: #fff;

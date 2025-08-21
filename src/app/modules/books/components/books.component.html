@@ -18,7 +18,9 @@
       [currentPage]="currentPage"
       [itemsPerPage]="itemsPerPage"
       [totalItems]="books.length" 
-      (pageChange)="onPageChange($event)">
+      (pageChange)="onPageChange($event)"
+      (itemsChange)="onItemsSelect($event)">
+      
     </app-paginator>
   </app-table-book>
 

@@ -107,4 +107,9 @@ export class BooksComponent implements OnInit {
 
     return this.books.slice(startIndex, endIndex);
   }
+
+  onItemsSelect(items: number): void {
+    this.currentPage = 1;
+    this.itemsPerPage = items;
+  }
 }

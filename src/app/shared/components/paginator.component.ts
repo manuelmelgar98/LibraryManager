@@ -13,6 +13,7 @@ export class PaginatorComponent implements OnChanges {
   @Input() totalItems: number = 0;
   @Input() itemsPerPage: number = 5;
   @Output() pageChange = new EventEmitter<number>();
+  @Output() itemsChange = new EventEmitter<number>();
 
   public totalPages: number = 0;
   public pages: number[] = [];
@@ -34,5 +35,14 @@ export class PaginatorComponent implements OnChanges {
 
   onNext(): void {
     this.goToPage(this.currentPage + 1);
+  }
+
+  onItemsSelect(items: Event): void {
+    const target = items.target as HTMLSelectElement;
+    if (target) {
+      const value = target.value;
+      
+      this.itemsChange.emit(parseInt(value, 10))
+    }
   }
 }
