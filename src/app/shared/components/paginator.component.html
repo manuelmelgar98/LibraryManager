@@ -1,0 +1,26 @@
+<nav class="paginator-container" aria-label="Paginación de la tabla">
+  <button 
+    class="paginator-button"
+    (click)="onPrevious()" 
+    [disabled]="currentPage === 1"
+    aria-label="Ir a la página anterior">
+    &laquo; Anterior
+  </button>
+
+  <button 
+    *ngFor="let page of pages"
+    class="paginator-button"
+    [class.active]="page === currentPage"
+    (click)="goToPage(page)"
+    [attr.aria-current]="page === currentPage ? 'page' : null">
+    {{ page }}
+  </button>
+
+  <button 
+    class="paginator-button"
+    (click)="onNext()" 
+    [disabled]="currentPage === totalPages"
+    aria-label="Ir a la página siguiente">
+    Siguiente &raquo;
+  </button>
+</nav>

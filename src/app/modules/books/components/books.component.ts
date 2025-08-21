@@ -7,20 +7,24 @@ import { showAlert, showConfirm } from '../../../core/utils/messages';
 import { FormBookComponent } from './form-book/form-book.component';
 import { TableBookComponent } from './table-book/table-book.component';
 import { SearchBookComponent } from './search-book/search-book.component';
+import { PaginatorComponent } from '../../../shared/components/paginator.component';
 
 
 @Component({
   selector: 'app-books',
   standalone: true,
-  imports: [CommonModule, FormBookComponent, TableBookComponent, SearchBookComponent],
+  imports: [CommonModule, FormBookComponent, TableBookComponent, SearchBookComponent, PaginatorComponent],
   templateUrl: './books.component.html',
   styleUrl: './books.component.css'
 })
 export class BooksComponent implements OnInit {
+
   books: Book[] = [];
   selectedBook: Book | null = null;
   isEditMode: boolean = false;
   isVisible: boolean = false;
+  currentPage: number = 1;
+  itemsPerPage: number = 5;
 
   constructor(private bookService: BookService) {}
 
@@ -93,4 +97,14 @@ export class BooksComponent implements OnInit {
     }, 'Eliminar libro.');
   }
   
+  onPageChange(newPage: number): void {
+    this.currentPage = newPage;
+  }
+
+  public get paginatedBooks(): Book[] {
+    const startIndex = (this.currentPage - 1) * this.itemsPerPage;
+    const endIndex = startIndex + this.itemsPerPage;
+
+    return this.books.slice(startIndex, endIndex);
+  }
 }

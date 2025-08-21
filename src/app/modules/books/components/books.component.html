@@ -10,10 +10,19 @@
     ></app-form-book>
   }
   <app-table-book
-    [books]="books"
+    [books]="paginatedBooks"
     (editBook)="onEditBook($event)"
     (deleteBook)="onDelete($event)"
-  ></app-table-book>
+  >
+    <app-paginator
+      [currentPage]="currentPage"
+      [itemsPerPage]="itemsPerPage"
+      [totalItems]="books.length" 
+      (pageChange)="onPageChange($event)">
+    </app-paginator>
+  </app-table-book>
+
+  
 
   <button (click)="onEditBook()">Nuevo Libro</button>
   
