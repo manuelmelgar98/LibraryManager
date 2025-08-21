@@ -16,6 +16,15 @@
   transition: background-color 0.2s, color 0.2s;
 }
 
+.paginator-ellipsis {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  background-color: #f8f9fa;
+  color: #6c757d;
+  border-radius: 4px;
+  cursor: default;
+}
+
 .paginator-button:hover:not(:disabled) {
   background-color: #eee;
 }

@@ -87,6 +87,1518 @@
       "isbn": "978-0321965516",
       "year": 2014,
       "genre": "Web Usability"
+    },
+    {
+      "id": 12,
+      "title": "Effective Python Structures",
+      "author": "River Martinez",
+      "isbn": "978-5062139249",
+      "year": 2016,
+      "genre": "Programming"
+    },
+    {
+      "id": 13,
+      "title": "Effective AI Applications",
+      "author": "Jamie Jones",
+      "isbn": "978-8146933106",
+      "year": 2000,
+      "genre": "Cybersecurity"
+    },
+    {
+      "id": 14,
+      "title": "Creative Algorithms Automation",
+      "author": "Quinn Brown",
+      "isbn": "978-5030800695",
+      "year": 2007,
+      "genre": "Cybersecurity"
+    },
+    {
+      "id": 15,
+      "title": "Creative Cloud Applications",
+      "author": "Skyler Jones",
+      "isbn": "978-0942927812",
+      "year": 2020,
+      "genre": "Programming"
+    },
+    {
+      "id": 16,
+      "title": "Practical AI Hacking",
+      "author": "Casey Miller",
+      "isbn": "978-4388358905",
+      "year": 2014,
+      "genre": "Data Science"
+    },
+    {
+      "id": 17,
+      "title": "Essential Systems Structures",
+      "author": "River Smith",
+      "isbn": "978-5272355049",
+      "year": 1998,
+      "genre": "Web Usability"
+    },
+    {
+      "id": 18,
+      "title": "Advanced Mobile Design",
+      "author": "Jordan Miller",
+      "isbn": "978-2839147880",
+      "year": 1991,
+      "genre": "Technical Interview"
+    },
+    {
+      "id": 19,
+      "title": "Mastering JavaScript Structures",
+      "author": "River Johnson",
+      "isbn": "978-5563055403",
+      "year": 1996,
+      "genre": "Artificial Intelligence"
+    },
+    {
+      "id": 20,
+      "title": "Effective Web Design",
+      "author": "Alex Davis",
+      "isbn": "978-5946770626",
+      "year": 2024,
+      "genre": "Programming"
+    },
+    {
+      "id": 21,
+      "title": "Mastering Systems Hacking",
+      "author": "River Martinez",
+      "isbn": "978-8648665312",
+      "year": 2009,
+      "genre": "Software Development"
+    },
+    {
+      "id": 22,
+      "title": "Advanced Cloud Applications",
+      "author": "Skyler Williams",
+      "isbn": "978-2041873225",
+      "year": 1991,
+      "genre": "Technical Interview"
+    },
+    {
+      "id": 23,
+      "title": "Modern Web Engineering",
+      "author": "Casey Williams",
+      "isbn": "978-2805830005",
+      "year": 2017,
+      "genre": "Computer Science"
+    },
+    {
+      "id": 24,
+      "title": "Next Generation Algorithms Computing",
+      "author": "Cameron Jones",
+      "isbn": "978-1993971626",
+      "year": 2012,
+      "genre": "Cybersecurity"
+    },
+    {
+      "id": 25,
+      "title": "Creative Web Hacking",
+      "author": "Casey Garcia",
+      "isbn": "978-9917566493",
+      "year": 2006,
+      "genre": "Machine Learning"
+    },
+    {
+      "id": 26,
+      "title": "Next Generation Security Applications",
+      "author": "Skyler Rodriguez",
+      "isbn": "978-7102211663",
+      "year": 1995,
+      "genre": "Programming"
+    },
+    {
+      "id": 27,
+      "title": "Learning Python Structures",
+      "author": "Casey Davis",
+      "isbn": "978-0014563115",
+      "year": 2005,
+      "genre": "Software Development"
+    },
+    {
+      "id": 28,
+      "title": "Essential Security Hacking",
+      "author": "Taylor Williams",
+      "isbn": "978-6279647543",
+      "year": 2003,
+      "genre": "Cybersecurity"
+    },
+    {
+      "id": 29,
+      "title": "Learning Python Hacking",
+      "author": "Morgan Garcia",
+      "isbn": "978-3566859946",
+      "year": 1991,
+      "genre": "Networking"
+    },
+    {
+      "id": 30,
+      "title": "Creative Python Computing",
+      "author": "Casey Miller",
+      "isbn": "978-7123946441",
+      "year": 2002,
+      "genre": "Networking"
+    },
+    {
+      "id": 31,
+      "title": "Practical AI Engineering",
+      "author": "Casey Williams",
+      "isbn": "978-9315827354",
+      "year": 2001,
+      "genre": "Programming"
+    },
+    {
+      "id": 32,
+      "title": "Practical JavaScript Engineering",
+      "author": "Skyler Miller",
+      "isbn": "978-2014970840",
+      "year": 2000,
+      "genre": "Artificial Intelligence"
+    },
+    {
+      "id": 33,
+      "title": "Practical Systems Interfaces",
+      "author": "Taylor Miller",
+      "isbn": "978-0841950217",
+      "year": 2006,
+      "genre": "Data Science"
+    },
+    {
+      "id": 34,
+      "title": "The Art of Algorithms Engineering",
+      "author": "Casey Miller",
+      "isbn": "978-7830274832",
+      "year": 2023,
+      "genre": "Machine Learning"
+    },
+    {
+      "id": 35,
+      "title": "Essential Systems Applications",
+      "author": "Skyler Rodriguez",
+      "isbn": "978-7951674746",
+      "year": 2023,
+      "genre": "Data Science"
+    },
+    {
+      "id": 36,
+      "title": "Modern Web Computing",
+      "author": "River Davis",
+      "isbn": "978-8755257837",
+      "year": 1992,
+      "genre": "Cybersecurity"
+    },
+    {
+      "id": 37,
+      "title": "Effective Algorithms Analysis",
+      "author": "Quinn Garcia",
+      "isbn": "978-8802634316",
+      "year": 2000,
+      "genre": "Software Design"
+    },
+    {
+      "id": 38,
+      "title": "Essential AI Computing",
+      "author": "Jordan Williams",
+      "isbn": "978-3892695955",
+      "year": 1998,
+      "genre": "Software Development"
+    },
+    {
+      "id": 39,
+      "title": "Next Generation Web Analysis",
+      "author": "Jamie Miller",
+      "isbn": "978-8985825207",
+      "year": 2023,
+      "genre": "Web Usability"
+    },
+    {
+      "id": 40,
+      "title": "Mastering Mobile Structures",
+      "author": "Skyler Davis",
+      "isbn": "978-1697165409",
+      "year": 2005,
+      "genre": "Algorithms"
+    },
+    {
+      "id": 41,
+      "title": "Mastering Web Computing",
+      "author": "Taylor Williams",
+      "isbn": "978-2116233433",
+      "year": 2013,
+      "genre": "Data Science"
+    },
+    {
+      "id": 42,
+      "title": "Learning Algorithms Engineering",
+      "author": "Casey Jones",
+      "isbn": "978-5583795106",
+      "year": 2019,
+      "genre": "Technical Interview"
+    },
+    {
+      "id": 43,
+      "title": "Mastering Algorithms Computing",
+      "author": "Jamie Williams",
+      "isbn": "978-5797011996",
+      "year": 1995,
+      "genre": "Networking"
+    },
+    {
+      "id": 44,
+      "title": "Practical Systems Automation",
+      "author": "Alex Miller",
+      "isbn": "978-1551219066",
+      "year": 2020,
+      "genre": "Software Design"
+    },
+    {
+      "id": 45,
+      "title": "Modern Algorithms Development",
+      "author": "Skyler Johnson",
+      "isbn": "978-8548944850",
+      "year": 2000,
+      "genre": "Artificial Intelligence"
+    },
+    {
+      "id": 46,
+      "title": "Advanced Systems Engineering",
+      "author": "Skyler Jones",
+      "isbn": "978-7478165311",
+      "year": 2010,
+      "genre": "Networking"
+    },
+    {
+      "id": 47,
+      "title": "Mastering AI Structures",
+      "author": "Quinn Miller",
+      "isbn": "978-5967448821",
+      "year": 1999,
+      "genre": "Computer Science"
+    },
+    {
+      "id": 48,
+      "title": "Mastering Cloud Design",
+      "author": "Taylor Williams",
+      "isbn": "978-3951210667",
+      "year": 1999,
+      "genre": "Cybersecurity"
+    },
+    {
+      "id": 49,
+      "title": "Practical Mobile Development",
+      "author": "Jordan Garcia",
+      "isbn": "978-8757501871",
+      "year": 2020,
+      "genre": "Web Usability"
+    },
+    {
+      "id": 50,
+      "title": "Mastering Systems Applications",
+      "author": "Taylor Brown",
+      "isbn": "978-0645707090",
+      "year": 2003,
+      "genre": "Web Usability"
+    },
+    {
+      "id": 51,
+      "title": "Modern Mobile Hacking",
+      "author": "Quinn Smith",
+      "isbn": "978-1190928635",
+      "year": 2011,
+      "genre": "Web Usability"
+    },
+    {
+      "id": 52,
+      "title": "Creative Cloud Applications",
+      "author": "Morgan Brown",
+      "isbn": "978-8692857146",
+      "year": 2021,
+      "genre": "Software Design"
+    },
+    {
+      "id": 53,
+      "title": "Practical JavaScript Structures",
+      "author": "Alex Jones",
+      "isbn": "978-5905003855",
+      "year": 2013,
+      "genre": "Database Management"
+    },
+    {
+      "id": 54,
+      "title": "The Art of AI Engineering",
+      "author": "Taylor Davis",
+      "isbn": "978-4868430930",
+      "year": 1993,
+      "genre": "Database Management"
+    },
+    {
+      "id": 55,
+      "title": "Next Generation Systems Automation",
+      "author": "Jordan Martinez",
+      "isbn": "978-6622879681",
+      "year": 2024,
+      "genre": "Cybersecurity"
+    },
+    {
+      "id": 56,
+      "title": "Practical Data Automation",
+      "author": "Casey Johnson",
+      "isbn": "978-8874832439",
+      "year": 2021,
+      "genre": "Networking"
+    },
+    {
+      "id": 57,
+      "title": "Modern Cloud Design",
+      "author": "River Jones",
+      "isbn": "978-6482106894",
+      "year": 2010,
+      "genre": "Web Usability"
+    },
+    {
+      "id": 58,
+      "title": "Essential Web Design",
+      "author": "River Martinez",
+      "isbn": "978-4463827920",
+      "year": 1999,
+      "genre": "Cybersecurity"
+    },
+    {
+      "id": 59,
+      "title": "The Art of Systems Development",
+      "author": "Alex Brown",
+      "isbn": "978-3260685447",
+      "year": 2012,
+      "genre": "Software Development"
+    },
+    {
+      "id": 60,
+      "title": "Learning Data Computing",
+      "author": "Skyler Rodriguez",
+      "isbn": "978-2599056620",
+      "year": 2016,
+      "genre": "Software Engineering"
+    },
+    {
+      "id": 61,
+      "title": "Next Generation Data Design",
+      "author": "Taylor Miller",
+      "isbn": "978-2335824136",
+      "year": 2013,
+      "genre": "Artificial Intelligence"
+    },
+    {
+      "id": 62,
+      "title": "Advanced Cloud Hacking",
+      "author": "Jordan Williams",
+      "isbn": "978-7342421411",
+      "year": 2025,
+      "genre": "Computer Science"
+    },
+    {
+      "id": 63,
+      "title": "Effective AI Structures",
+      "author": "Cameron Davis",
+      "isbn": "978-4900555689",
+      "year": 2023,
+      "genre": "Algorithms"
+    },
+    {
+      "id": 64,
+      "title": "Learning AI Structures",
+      "author": "Taylor Rodriguez",
+      "isbn": "978-4865018359",
+      "year": 2023,
+      "genre": "Artificial Intelligence"
+    },
+    {
+      "id": 65,
+      "title": "Learning Data Structures",
+      "author": "River Smith",
+      "isbn": "978-2920857879",
+      "year": 2023,
+      "genre": "Software Design"
+    },
+    {
+      "id": 66,
+      "title": "Modern AI Hacking",
+      "author": "Taylor Brown",
+      "isbn": "978-3696196125",
+      "year": 2010,
+      "genre": "Networking"
+    },
+    {
+      "id": 67,
+      "title": "Creative Systems Applications",
+      "author": "Alex Miller",
+      "isbn": "978-7551089042",
+      "year": 1997,
+      "genre": "Artificial Intelligence"
+    },
+    {
+      "id": 68,
+      "title": "Advanced Web Design",
+      "author": "Skyler Brown",
+      "isbn": "978-8020027283",
+      "year": 2015,
+      "genre": "Programming"
+    },
+    {
+      "id": 69,
+      "title": "Practical Python Automation",
+      "author": "Morgan Garcia",
+      "isbn": "978-8648959607",
+      "year": 1993,
+      "genre": "Artificial Intelligence"
+    },
+    {
+      "id": 70,
+      "title": "Modern Mobile Applications",
+      "author": "Skyler Davis",
+      "isbn": "978-6147084073",
+      "year": 1994,
+      "genre": "Machine Learning"
+    },
+    {
+      "id": 71,
+      "title": "Learning JavaScript Development",
+      "author": "Jamie Miller",
+      "isbn": "978-6663729905",
+      "year": 1993,
+      "genre": "Software Design"
+    },
+    {
+      "id": 72,
+      "title": "Creative AI Design",
+      "author": "River Garcia",
+      "isbn": "978-6792138241",
+      "year": 2022,
+      "genre": "Artificial Intelligence"
+    },
+    {
+      "id": 73,
+      "title": "Practical Cloud Interfaces",
+      "author": "Quinn Davis",
+      "isbn": "978-1191665679",
+      "year": 2024,
+      "genre": "Database Management"
+    },
+    {
+      "id": 74,
+      "title": "Creative Data Computing",
+      "author": "Skyler Smith",
+      "isbn": "978-1279130026",
+      "year": 2014,
+      "genre": "Software Development"
+    },
+    {
+      "id": 75,
+      "title": "Creative Python Hacking",
+      "author": "Casey Smith",
+      "isbn": "978-0097208254",
+      "year": 1995,
+      "genre": "Software Engineering"
+    },
+    {
+      "id": 76,
+      "title": "Advanced AI Design",
+      "author": "Casey Smith",
+      "isbn": "978-0293420416",
+      "year": 2022,
+      "genre": "Technical Interview"
+    },
+    {
+      "id": 77,
+      "title": "Practical Mobile Applications",
+      "author": "Jordan Williams",
+      "isbn": "978-5146253960",
+      "year": 2016,
+      "genre": "Artificial Intelligence"
+    },
+    {
+      "id": 78,
+      "title": "Practical Web Applications",
+      "author": "Casey Davis",
+      "isbn": "978-7305637553",
+      "year": 1992,
+      "genre": "Programming"
+    },
+    {
+      "id": 79,
+      "title": "Creative AI Hacking",
+      "author": "Cameron Rodriguez",
+      "isbn": "978-7026517423",
+      "year": 2014,
+      "genre": "Networking"
+    },
+    {
+      "id": 80,
+      "title": "The Art of Python Development",
+      "author": "Taylor Smith",
+      "isbn": "978-7041779111",
+      "year": 2021,
+      "genre": "Software Engineering"
+    },
+    {
+      "id": 81,
+      "title": "Learning Data Hacking",
+      "author": "Jordan Rodriguez",
+      "isbn": "978-6628057734",
+      "year": 1999,
+      "genre": "Software Development"
+    },
+    {
+      "id": 82,
+      "title": "Modern Mobile Structures",
+      "author": "Cameron Williams",
+      "isbn": "978-2967340544",
+      "year": 2023,
+      "genre": "Software Engineering"
+    },
+    {
+      "id": 83,
+      "title": "The Art of Python Design",
+      "author": "Jamie Jones",
+      "isbn": "978-0296410942",
+      "year": 1991,
+      "genre": "Programming"
+    },
+    {
+      "id": 84,
+      "title": "Practical Algorithms Applications",
+      "author": "Quinn Smith",
+      "isbn": "978-2108962705",
+      "year": 1990,
+      "genre": "Software Engineering"
+    },
+    {
+      "id": 85,
+      "title": "Practical Security Interfaces",
+      "author": "River Brown",
+      "isbn": "978-7393990110",
+      "year": 2019,
+      "genre": "Algorithms"
+    },
+    {
+      "id": 86,
+      "title": "Creative Systems Engineering",
+      "author": "Jamie Jones",
+      "isbn": "978-9470191475",
+      "year": 2001,
+      "genre": "Programming"
+    },
+    {
+      "id": 87,
+      "title": "The Art of AI Development",
+      "author": "Quinn Smith",
+      "isbn": "978-4505982171",
+      "year": 2004,
+      "genre": "Networking"
+    },
+    {
+      "id": 88,
+      "title": "Effective Security Computing",
+      "author": "Jordan Davis",
+      "isbn": "978-5116458351",
+      "year": 2016,
+      "genre": "Computer Science"
+    },
+    {
+      "id": 89,
+      "title": "The Art of JavaScript Applications",
+      "author": "Morgan Jones",
+      "isbn": "978-6618146207",
+      "year": 2019,
+      "genre": "Web Usability"
+    },
+    {
+      "id": 90,
+      "title": "Practical Python Design",
+      "author": "Cameron Garcia",
+      "isbn": "978-1658341288",
+      "year": 2019,
+      "genre": "Technical Interview"
+    },
+    {
+      "id": 91,
+      "title": "Advanced Web Structures",
+      "author": "Cameron Smith",
+      "isbn": "978-9787232264",
+      "year": 2007,
+      "genre": "Data Science"
+    },
+    {
+      "id": 92,
+      "title": "Creative JavaScript Computing",
+      "author": "Alex Smith",
+      "isbn": "978-2696394257",
+      "year": 2008,
+      "genre": "Networking"
+    },
+    {
+      "id": 93,
+      "title": "Modern Python Development",
+      "author": "Jamie Rodriguez",
+      "isbn": "978-7612435281",
+      "year": 2001,
+      "genre": "Software Design"
+    },
+    {
+      "id": 94,
+      "title": "Advanced Algorithms Hacking",
+      "author": "Taylor Williams",
+      "isbn": "978-8016096698",
+      "year": 2013,
+      "genre": "Computer Science"
+    },
+    {
+      "id": 95,
+      "title": "Effective Cloud Engineering",
+      "author": "Skyler Martinez",
+      "isbn": "978-1354386022",
+      "year": 1993,
+      "genre": "Data Science"
+    },
+    {
+      "id": 96,
+      "title": "The Art of Data Computing",
+      "author": "Quinn Williams",
+      "isbn": "978-0678022059",
+      "year": 2001,
+      "genre": "Software Engineering"
+    },
+    {
+      "id": 97,
+      "title": "Mastering Data Hacking",
+      "author": "Taylor Smith",
+      "isbn": "978-0427923120",
+      "year": 2009,
+      "genre": "Machine Learning"
+    },
+    {
+      "id": 98,
+      "title": "Essential Python Structures",
+      "author": "Taylor Miller",
+      "isbn": "978-8148874734",
+      "year": 2010,
+      "genre": "Software Design"
+    },
+    {
+      "id": 99,
+      "title": "Practical Systems Development",
+      "author": "Morgan Brown",
+      "isbn": "978-5962933695",
+      "year": 2008,
+      "genre": "Networking"
+    },
+    {
+      "id": 100,
+      "title": "Effective AI Design",
+      "author": "Taylor Johnson",
+      "isbn": "978-9343902494",
+      "year": 2024,
+      "genre": "Data Science"
+    },
+    {
+      "id": 101,
+      "title": "Learning Cloud Automation",
+      "author": "Morgan Rodriguez",
+      "isbn": "978-9398219072",
+      "year": 2007,
+      "genre": "Database Management"
+    },
+    {
+      "id": 102,
+      "title": "Essential Data Automation",
+      "author": "Skyler Miller",
+      "isbn": "978-9152050568",
+      "year": 2001,
+      "genre": "Software Design"
+    },
+    {
+      "id": 103,
+      "title": "Learning Python Automation",
+      "author": "Quinn Williams",
+      "isbn": "978-1650531735",
+      "year": 1995,
+      "genre": "Database Management"
+    },
+    {
+      "id": 104,
+      "title": "Practical Python Analysis",
+      "author": "River Jones",
+      "isbn": "978-9075730419",
+      "year": 2009,
+      "genre": "Cybersecurity"
+    },
+    {
+      "id": 105,
+      "title": "Learning Cloud Development",
+      "author": "Alex Miller",
+      "isbn": "978-2145180710",
+      "year": 2004,
+      "genre": "Algorithms"
+    },
+    {
+      "id": 106,
+      "title": "Effective Systems Engineering",
+      "author": "Quinn Garcia",
+      "isbn": "978-5827596039",
+      "year": 2019,
+      "genre": "Web Usability"
+    },
+    {
+      "id": 107,
+      "title": "The Art of Mobile Computing",
+      "author": "Jamie Garcia",
+      "isbn": "978-9527205682",
+      "year": 2003,
+      "genre": "Software Engineering"
+    },
+    {
+      "id": 108,
+      "title": "Mastering Web Structures",
+      "author": "Casey Williams",
+      "isbn": "978-9859384664",
+      "year": 2015,
+      "genre": "Programming"
+    },
+    {
+      "id": 109,
+      "title": "Modern AI Structures",
+      "author": "Quinn Smith",
+      "isbn": "978-4807793336",
+      "year": 1993,
+      "genre": "Cybersecurity"
+    },
+    {
+      "id": 110,
+      "title": "Mastering Mobile Applications",
+      "author": "Jamie Miller",
+      "isbn": "978-9877574899",
+      "year": 2001,
+      "genre": "Data Science"
+    },
+    {
+      "id": 111,
+      "title": "Creative Mobile Development",
+      "author": "Casey Smith",
+      "isbn": "978-5741411144",
+      "year": 2003,
+      "genre": "Web Usability"
+    },
+    {
+      "id": 112,
+      "title": "Practical Algorithms Computing",
+      "author": "Jamie Williams",
+      "isbn": "978-7836078212",
+      "year": 2013,
+      "genre": "Machine Learning"
+    },
+    {
+      "id": 113,
+      "title": "Modern Algorithms Automation",
+      "author": "Casey Rodriguez",
+      "isbn": "978-7120138445",
+      "year": 2019,
+      "genre": "Software Design"
+    },
+    {
+      "id": 114,
+      "title": "Advanced Security Analysis",
+      "author": "Taylor Rodriguez",
+      "isbn": "978-0008064907",
+      "year": 2018,
+      "genre": "Networking"
+    },
+    {
+      "id": 115,
+      "title": "Creative Algorithms Structures",
+      "author": "Cameron Johnson",
+      "isbn": "978-3577177944",
+      "year": 1994,
+      "genre": "Software Development"
+    },
+    {
+      "id": 116,
+      "title": "Mastering Python Interfaces",
+      "author": "Skyler Jones",
+      "isbn": "978-5767354912",
+      "year": 2019,
+      "genre": "Algorithms"
+    },
+    {
+      "id": 117,
+      "title": "Next Generation Web Interfaces",
+      "author": "Quinn Jones",
+      "isbn": "978-7655869551",
+      "year": 1990,
+      "genre": "Artificial Intelligence"
+    },
+    {
+      "id": 118,
+      "title": "Practical Cloud Development",
+      "author": "Morgan Miller",
+      "isbn": "978-8225919097",
+      "year": 2024,
+      "genre": "Technical Interview"
+    },
+    {
+      "id": 119,
+      "title": "Modern Cloud Design",
+      "author": "Alex Rodriguez",
+      "isbn": "978-0432618481",
+      "year": 2003,
+      "genre": "Programming"
+    },
+    {
+      "id": 120,
+      "title": "Modern Mobile Design",
+      "author": "Jamie Garcia",
+      "isbn": "978-0016847605",
+      "year": 2010,
+      "genre": "Programming"
+    },
+    {
+      "id": 121,
+      "title": "Advanced Python Interfaces",
+      "author": "Taylor Williams",
+      "isbn": "978-1142588965",
+      "year": 2003,
+      "genre": "Programming"
+    },
+    {
+      "id": 122,
+      "title": "Practical AI Development",
+      "author": "Casey Miller",
+      "isbn": "978-0027871690",
+      "year": 2000,
+      "genre": "Web Usability"
+    },
+    {
+      "id": 123,
+      "title": "Creative Data Analysis",
+      "author": "Skyler Brown",
+      "isbn": "978-5527789412",
+      "year": 1997,
+      "genre": "Software Design"
+    },
+    {
+      "id": 124,
+      "title": "Learning Web Design",
+      "author": "Casey Davis",
+      "isbn": "978-4451858631",
+      "year": 1992,
+      "genre": "Software Design"
+    },
+    {
+      "id": 125,
+      "title": "Modern Cloud Development",
+      "author": "Casey Garcia",
+      "isbn": "978-0605964133",
+      "year": 2024,
+      "genre": "Algorithms"
+    },
+    {
+      "id": 126,
+      "title": "Essential Cloud Interfaces",
+      "author": "Cameron Martinez",
+      "isbn": "978-5989370043",
+      "year": 1999,
+      "genre": "Computer Science"
+    },
+    {
+      "id": 127,
+      "title": "Mastering Data Engineering",
+      "author": "Jordan Smith",
+      "isbn": "978-3762381948",
+      "year": 2012,
+      "genre": "Networking"
+    },
+    {
+      "id": 128,
+      "title": "Advanced Cloud Analysis",
+      "author": "Skyler Rodriguez",
+      "isbn": "978-1684796536",
+      "year": 2020,
+      "genre": "Programming"
+    },
+    {
+      "id": 129,
+      "title": "Advanced Security Applications",
+      "author": "Alex Rodriguez",
+      "isbn": "978-2328098979",
+      "year": 2010,
+      "genre": "Database Management"
+    },
+    {
+      "id": 130,
+      "title": "Practical JavaScript Interfaces",
+      "author": "Morgan Jones",
+      "isbn": "978-2372535030",
+      "year": 2025,
+      "genre": "Algorithms"
+    },
+    {
+      "id": 131,
+      "title": "Modern Cloud Structures",
+      "author": "Cameron Williams",
+      "isbn": "978-1132112139",
+      "year": 1991,
+      "genre": "Software Development"
+    },
+    {
+      "id": 132,
+      "title": "Next Generation AI Interfaces",
+      "author": "Cameron Garcia",
+      "isbn": "978-6563130033",
+      "year": 2020,
+      "genre": "Machine Learning"
+    },
+    {
+      "id": 133,
+      "title": "Learning Data Hacking",
+      "author": "Alex Jones",
+      "isbn": "978-7935956345",
+      "year": 2012,
+      "genre": "Data Science"
+    },
+    {
+      "id": 134,
+      "title": "Effective Systems Interfaces",
+      "author": "Casey Rodriguez",
+      "isbn": "978-4734875081",
+      "year": 1999,
+      "genre": "Artificial Intelligence"
+    },
+    {
+      "id": 135,
+      "title": "Modern Web Automation",
+      "author": "River Smith",
+      "isbn": "978-9924971750",
+      "year": 1991,
+      "genre": "Algorithms"
+    },
+    {
+      "id": 136,
+      "title": "Advanced Cloud Interfaces",
+      "author": "Taylor Rodriguez",
+      "isbn": "978-8196455230",
+      "year": 2002,
+      "genre": "Cybersecurity"
+    },
+    {
+      "id": 137,
+      "title": "The Art of AI Automation",
+      "author": "Skyler Miller",
+      "isbn": "978-6712307922",
+      "year": 2002,
+      "genre": "Data Science"
+    },
+    {
+      "id": 138,
+      "title": "Mastering Systems Interfaces",
+      "author": "Skyler Johnson",
+      "isbn": "978-8785241856",
+      "year": 1991,
+      "genre": "Data Science"
+    },
+    {
+      "id": 139,
+      "title": "Modern Cloud Design",
+      "author": "Morgan Garcia",
+      "isbn": "978-5454684739",
+      "year": 2002,
+      "genre": "Machine Learning"
+    },
+    {
+      "id": 140,
+      "title": "Essential Data Engineering",
+      "author": "Quinn Jones",
+      "isbn": "978-5808984535",
+      "year": 2017,
+      "genre": "Database Management"
+    },
+    {
+      "id": 141,
+      "title": "Creative Security Engineering",
+      "author": "Taylor Garcia",
+      "isbn": "978-3508779047",
+      "year": 2013,
+      "genre": "Software Engineering"
+    },
+    {
+      "id": 142,
+      "title": "Effective Systems Computing",
+      "author": "Skyler Smith",
+      "isbn": "978-9416518435",
+      "year": 2024,
+      "genre": "Algorithms"
+    },
+    {
+      "id": 143,
+      "title": "Essential Data Computing",
+      "author": "Taylor Williams",
+      "isbn": "978-5219297646",
+      "year": 1993,
+      "genre": "Algorithms"
+    },
+    {
+      "id": 144,
+      "title": "Practical AI Interfaces",
+      "author": "Alex Smith",
+      "isbn": "978-2162932502",
+      "year": 1999,
+      "genre": "Computer Science"
+    },
+    {
+      "id": 145,
+      "title": "Practical Algorithms Design",
+      "author": "Skyler Davis",
+      "isbn": "978-9568701943",
+      "year": 2017,
+      "genre": "Programming"
+    },
+    {
+      "id": 146,
+      "title": "Learning Web Interfaces",
+      "author": "Cameron Martinez",
+      "isbn": "978-7843263203",
+      "year": 2024,
+      "genre": "Software Design"
+    },
+    {
+      "id": 147,
+      "title": "Practical Security Engineering",
+      "author": "Jamie Jones",
+      "isbn": "978-3208860196",
+      "year": 1991,
+      "genre": "Programming"
+    },
+    {
+      "id": 148,
+      "title": "Essential JavaScript Computing",
+      "author": "Skyler Smith",
+      "isbn": "978-8854470075",
+      "year": 2017,
+      "genre": "Programming"
+    },
+    {
+      "id": 149,
+      "title": "Effective Cloud Automation",
+      "author": "Alex Williams",
+      "isbn": "978-3790813771",
+      "year": 2020,
+      "genre": "Artificial Intelligence"
+    },
+    {
+      "id": 150,
+      "title": "Modern JavaScript Hacking",
+      "author": "Casey Jones",
+      "isbn": "978-6648608339",
+      "year": 1995,
+      "genre": "Web Usability"
+    },
+    {
+      "id": 151,
+      "title": "Effective Data Computing",
+      "author": "Alex Rodriguez",
+      "isbn": "978-1247397398",
+      "year": 1992,
+      "genre": "Data Science"
+    },
+    {
+      "id": 152,
+      "title": "Creative Python Hacking",
+      "author": "Taylor Garcia",
+      "isbn": "978-0737982361",
+      "year": 2019,
+      "genre": "Software Design"
+    },
+    {
+      "id": 153,
+      "title": "The Art of Python Structures",
+      "author": "River Martinez",
+      "isbn": "978-2067801582",
+      "year": 2020,
+      "genre": "Software Engineering"
+    },
+    {
+      "id": 154,
+      "title": "The Art of Security Analysis",
+      "author": "Casey Smith",
+      "isbn": "978-6389723800",
+      "year": 1993,
+      "genre": "Artificial Intelligence"
+    },
+    {
+      "id": 155,
+      "title": "Modern JavaScript Engineering",
+      "author": "River Brown",
+      "isbn": "978-5262277353",
+      "year": 2012,
+      "genre": "Cybersecurity"
+    },
+    {
+      "id": 156,
+      "title": "Modern Security Engineering",
+      "author": "Cameron Miller",
+      "isbn": "978-4054109933",
+      "year": 2016,
+      "genre": "Technical Interview"
+    },
+    {
+      "id": 157,
+      "title": "Mastering Web Development",
+      "author": "Quinn Williams",
+      "isbn": "978-7702366786",
+      "year": 2015,
+      "genre": "Cybersecurity"
+    },
+    {
+      "id": 158,
+      "title": "Modern Data Structures",
+      "author": "Alex Brown",
+      "isbn": "978-8485524213",
+      "year": 2016,
+      "genre": "Networking"
+    },
+    {
+      "id": 159,
+      "title": "Effective Data Computing",
+      "author": "Alex Davis",
+      "isbn": "978-8999548244",
+      "year": 1990,
+      "genre": "Database Management"
+    },
+    {
+      "id": 160,
+      "title": "Mastering Algorithms Design",
+      "author": "Morgan Davis",
+      "isbn": "978-1456207162",
+      "year": 2003,
+      "genre": "Networking"
+    },
+    {
+      "id": 161,
+      "title": "Learning JavaScript Automation",
+      "author": "Cameron Garcia",
+      "isbn": "978-2757879544",
+      "year": 1990,
+      "genre": "Programming"
+    },
+    {
+      "id": 162,
+      "title": "Modern Security Interfaces",
+      "author": "Jordan Brown",
+      "isbn": "978-5358010019",
+      "year": 2003,
+      "genre": "Data Science"
+    },
+    {
+      "id": 163,
+      "title": "Effective JavaScript Development",
+      "author": "Jordan Garcia",
+      "isbn": "978-0538397239",
+      "year": 1995,
+      "genre": "Software Design"
+    },
+    {
+      "id": 164,
+      "title": "Advanced Mobile Analysis",
+      "author": "Skyler Garcia",
+      "isbn": "978-3098268972",
+      "year": 1996,
+      "genre": "Computer Science"
+    },
+    {
+      "id": 165,
+      "title": "Creative Algorithms Development",
+      "author": "Jordan Williams",
+      "isbn": "978-8450492116",
+      "year": 1998,
+      "genre": "Web Usability"
+    },
+    {
+      "id": 166,
+      "title": "Next Generation Python Hacking",
+      "author": "Jordan Garcia",
+      "isbn": "978-0219214707",
+      "year": 1993,
+      "genre": "Data Science"
+    },
+    {
+      "id": 167,
+      "title": "Next Generation Algorithms Computing",
+      "author": "Skyler Jones",
+      "isbn": "978-7456070694",
+      "year": 2017,
+      "genre": "Networking"
+    },
+    {
+      "id": 168,
+      "title": "Next Generation Cloud Analysis",
+      "author": "River Rodriguez",
+      "isbn": "978-0759099439",
+      "year": 2011,
+      "genre": "Computer Science"
+    },
+    {
+      "id": 169,
+      "title": "Learning Systems Design",
+      "author": "Casey Williams",
+      "isbn": "978-7376365720",
+      "year": 2025,
+      "genre": "Data Science"
+    },
+    {
+      "id": 170,
+      "title": "Creative Algorithms Interfaces",
+      "author": "Skyler Miller",
+      "isbn": "978-6248477173",
+      "year": 1990,
+      "genre": "Database Management"
+    },
+    {
+      "id": 171,
+      "title": "Next Generation Mobile Applications",
+      "author": "Alex Martinez",
+      "isbn": "978-2814945269",
+      "year": 1992,
+      "genre": "Software Development"
+    },
+    {
+      "id": 172,
+      "title": "Effective AI Design",
+      "author": "Taylor Martinez",
+      "isbn": "978-2699669824",
+      "year": 2024,
+      "genre": "Technical Interview"
+    },
+    {
+      "id": 173,
+      "title": "Learning Web Development",
+      "author": "Quinn Jones",
+      "isbn": "978-5443791420",
+      "year": 2013,
+      "genre": "Programming"
+    },
+    {
+      "id": 174,
+      "title": "Next Generation Mobile Interfaces",
+      "author": "Casey Smith",
+      "isbn": "978-2382484015",
+      "year": 1996,
+      "genre": "Software Development"
+    },
+    {
+      "id": 175,
+      "title": "Learning Algorithms Development",
+      "author": "Cameron Garcia",
+      "isbn": "978-2507974259",
+      "year": 2012,
+      "genre": "Algorithms"
+    },
+    {
+      "id": 176,
+      "title": "Essential Python Engineering",
+      "author": "Cameron Johnson",
+      "isbn": "978-8048429087",
+      "year": 2021,
+      "genre": "Algorithms"
+    },
+    {
+      "id": 177,
+      "title": "Effective Python Applications",
+      "author": "Skyler Garcia",
+      "isbn": "978-2166307293",
+      "year": 1994,
+      "genre": "Web Usability"
+    },
+    {
+      "id": 178,
+      "title": "Advanced Cloud Analysis",
+      "author": "Skyler Davis",
+      "isbn": "978-7752424122",
+      "year": 2014,
+      "genre": "Algorithms"
+    },
+    {
+      "id": 179,
+      "title": "Mastering Systems Applications",
+      "author": "Quinn Johnson",
+      "isbn": "978-4449438592",
+      "year": 1992,
+      "genre": "Database Management"
+    },
+    {
+      "id": 180,
+      "title": "Mastering Cloud Interfaces",
+      "author": "Morgan Jones",
+      "isbn": "978-9158514005",
+      "year": 2013,
+      "genre": "Technical Interview"
+    },
+    {
+      "id": 181,
+      "title": "Learning AI Development",
+      "author": "Taylor Garcia",
+      "isbn": "978-1880426620",
+      "year": 2005,
+      "genre": "Computer Science"
+    },
+    {
+      "id": 182,
+      "title": "Mastering Web Analysis",
+      "author": "Jamie Rodriguez",
+      "isbn": "978-4843772323",
+      "year": 2007,
+      "genre": "Software Engineering"
+    },
+    {
+      "id": 183,
+      "title": "Effective Mobile Applications",
+      "author": "Jamie Jones",
+      "isbn": "978-0969453578",
+      "year": 1993,
+      "genre": "Software Design"
+    },
+    {
+      "id": 184,
+      "title": "Effective Python Hacking",
+      "author": "Morgan Garcia",
+      "isbn": "978-3511967879",
+      "year": 2004,
+      "genre": "Artificial Intelligence"
+    },
+    {
+      "id": 185,
+      "title": "The Art of Data Design",
+      "author": "Taylor Smith",
+      "isbn": "978-9084352825",
+      "year": 1998,
+      "genre": "Data Science"
+    },
+    {
+      "id": 186,
+      "title": "Modern Cloud Structures",
+      "author": "Jamie Davis",
+      "isbn": "978-0398859680",
+      "year": 1991,
+      "genre": "Technical Interview"
+    },
+    {
+      "id": 187,
+      "title": "Modern Cloud Structures",
+      "author": "Morgan Rodriguez",
+      "isbn": "978-4864789988",
+      "year": 2006,
+      "genre": "Technical Interview"
+    },
+    {
+      "id": 188,
+      "title": "Effective Mobile Interfaces",
+      "author": "Jamie Johnson",
+      "isbn": "978-1895084258",
+      "year": 2018,
+      "genre": "Cybersecurity"
+    },
+    {
+      "id": 189,
+      "title": "Mastering Algorithms Computing",
+      "author": "Quinn Johnson",
+      "isbn": "978-9260531238",
+      "year": 2020,
+      "genre": "Artificial Intelligence"
+    },
+    {
+      "id": 190,
+      "title": "Next Generation JavaScript Hacking",
+      "author": "Morgan Brown",
+      "isbn": "978-2236186397",
+      "year": 2014,
+      "genre": "Software Engineering"
+    },
+    {
+      "id": 191,
+      "title": "Learning Systems Automation",
+      "author": "Quinn Garcia",
+      "isbn": "978-5208658529",
+      "year": 2016,
+      "genre": "Database Management"
+    },
+    {
+      "id": 192,
+      "title": "Learning Python Engineering",
+      "author": "Jordan Rodriguez",
+      "isbn": "978-2413806297",
+      "year": 2011,
+      "genre": "Algorithms"
+    },
+    {
+      "id": 193,
+      "title": "Next Generation Security Computing",
+      "author": "River Smith",
+      "isbn": "978-9146345790",
+      "year": 2018,
+      "genre": "Software Development"
+    },
+    {
+      "id": 194,
+      "title": "Essential Data Development",
+      "author": "Cameron Smith",
+      "isbn": "978-9957764214",
+      "year": 2009,
+      "genre": "Networking"
+    },
+    {
+      "id": 195,
+      "title": "Next Generation Mobile Analysis",
+      "author": "Quinn Martinez",
+      "isbn": "978-0977996253",
+      "year": 2022,
+      "genre": "Software Development"
+    },
+    {
+      "id": 196,
+      "title": "Effective Python Structures",
+      "author": "Alex Miller",
+      "isbn": "978-5269589171",
+      "year": 2022,
+      "genre": "Networking"
+    },
+    {
+      "id": 197,
+      "title": "The Art of Cloud Applications",
+      "author": "Jamie Jones",
+      "isbn": "978-3812529122",
+      "year": 2008,
+      "genre": "Database Management"
+    },
+    {
+      "id": 198,
+      "title": "Advanced JavaScript Structures",
+      "author": "Alex Davis",
+      "isbn": "978-5266626124",
+      "year": 2002,
+      "genre": "Cybersecurity"
+    },
+    {
+      "id": 199,
+      "title": "Advanced Mobile Structures",
+      "author": "River Martinez",
+      "isbn": "978-8783643810",
+      "year": 2004,
+      "genre": "Database Management"
+    },
+    {
+      "id": 200,
+      "title": "The Art of JavaScript Applications",
+      "author": "Taylor Martinez",
+      "isbn": "978-0978936700",
+      "year": 2013,
+      "genre": "Database Management"
     }
   ]
 }
